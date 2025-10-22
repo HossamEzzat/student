@@ -1,0 +1,50 @@
+name: student
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  device_preview:
+  zapx:
+  zap_sizer:
+  flutter_bloc:
+  persistent_bottom_nav_bar: ^6.2.1
+  dio: ^5.9.0
+  logger:
+  flutter_secure_storage: 
+  video_player: ^2.10.0
+  screen_protector:
+  flutter_cached_pdfview: ^0.4.3
+  path_provider: 
+  path:
+  flutter_cache_manager:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  fonts:
+    - family: Plus_Jakarta_Sans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf
+        - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf
+          weight: 700
